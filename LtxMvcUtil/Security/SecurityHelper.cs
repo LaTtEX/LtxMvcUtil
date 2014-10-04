@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LtxMvcUtil
+namespace LtxMvcUtil.Security
 {
     /// <summary>
     /// Helper class providing miscellaneous encryption and hashing methods
