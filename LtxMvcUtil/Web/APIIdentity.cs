@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace LtxMvcUtil.Web
 {
+    /// <summary>
+    /// Identity class used to provide a Principal to the HttpContext User object
+    /// </summary>
     public class ApiIdentity : IIdentity
     {
         public ApiIdentity(string username)
