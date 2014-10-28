@@ -33,7 +33,6 @@ namespace LtxMvcUtil.Web
                 if (username == ConfigurationManager.AppSettings["AuthUser"] &&
                     password == ConfigurationManager.AppSettings["AuthPword"])
                 {
-                    //TODO: Find out how to parameterize this and/or set it outside, or dispose of altogether?
                     HttpContext.Current.User = new GenericPrincipal(new ApiIdentity(username), new string[] { });
 
                     base.OnActionExecuting(actionContext);
